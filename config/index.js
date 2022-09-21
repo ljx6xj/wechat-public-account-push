@@ -28,28 +28,28 @@ export const config = {
     /** 生日消息和节日消息 */
     birthdayMessage: true,
   },
-  USERS: [ojGXm5jJPa7DaAE8Q3FZdnSsjRfQ,ojGXm5uFTM--DVGz50RkM2sW18LQ
+  USERS: ["ojGXm5jJPa7DaAE8Q3FZdnSsjRfQ","ojGXm5uFTM--DVGz50RkM2sW18LQ"
     {
       // 想要发送的人的名字
-      name: "扶小茵",
+      "name": "扶小茵",
     
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "hurORAZp1DE-665czSRpFf1zF5hjCRJGjgNWI0BiPf8",
-      province: "广东",
-      city: "广州",
-      horoscopeDate: '01-19',
-      horoscopeDateType: '今日',
-      festivals: [
+      "useTemplateId": "hurORAZp1DE-665czSRpFf1zF5hjCRJGjgNWI0BiPf8",
+      "province": "广东",
+      "city": "广州",
+      "horoscopeDate": '01-19',
+      "horoscopeDateType": '今日',
+     " festivals": [
         {"type": "生日", "name": "扶小茵", "year": "2002", "date": "01-19"},
       ],
-      customizedDateList: [
+      "customizedDateList": [
         // 在一起的日子
         {"keyword": "love_day", date: "2022-04-11"}
       ]
     },
   ],
-  CALLBACK_TEMPLATE_ID: "ojGXm5uFTM--DVGz50RkM2sW18LQ",
-  CALLBACK_USERS: [
+  "CALLBACK_TEMPLATE_ID": "ojGXm5uFTM--DVGz50RkM2sW18LQ",
+  "CALLBACK_USERS": [
     {
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
@@ -57,20 +57,17 @@ export const config = {
     },
    
   ],
-   PROVINCE: "广东",
-   CITY: "广州",
-  FESTIVALS: [
+   "PROVINCE": "广东",
+   "CITY": "广州",
+ " FESTIVALS": [
     {"type": "生日", "name": "扶小茵", "year": "2002", "date": "01-19", isShowAge: true},
   ],
-
-
-  FESTIVALS_LIMIT: 3,
     
-  CUSTOMIZED_DATE_LIST: [
+  "CUSTOMIZED_DATE_LIST": [
     // 在一起的日子
     {"keyword": "love_day", date: "2022-04-11"},
   ],
-  SLOT_LIST: [
+  "SLOT_LIST": [
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
